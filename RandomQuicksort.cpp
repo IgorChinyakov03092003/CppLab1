@@ -23,7 +23,7 @@ void quicksort(T arr[], int start, int end) {   // быстрая сортиро
             left++;
             right--;
         }
-    } while (left <= right);      // partition, сдвиг границ
+    } while (left <= right);      // partition, сдвиг границ друг к другу
     if (start < right) {
         quicksort(arr, start, right);
     }
